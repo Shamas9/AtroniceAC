@@ -1,0 +1,10 @@
+name: AtroniceAC
+version: 2.0
+main: atronicemc.ac.AntiCheatPlugin
+api-version: 1.13
+commands:
+  ac:
+    description: AC Admin Commands
+permissions:
+  atroniceac.alerts:
+    default: op
