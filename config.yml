@@ -1,0 +1,22 @@
+discord:
+  webhook-url: "YOUR_WEBHOOK_URL"
+  enabled: true
+
+checks:
+  xray:
+    enabled: true
+    vl-to-report: 20
+  speed:
+    enabled: true
+    max-speed: 0.6
+    vl-to-report: 50
+  fly:
+    enabled: true
+    vl-to-report: 40
+  killaura:
+    enabled: true
+    vl-to-report: 30
+
+alerts:
+  staff-message: "&c[AC] &7{player} &efailed &c{check}"
+  discord: true
